@@ -1,23 +1,22 @@
-## React Boilerplate
+## Mục đích PR
+> *PR này để thêm chức năng gì? Nếu là fix bug, ghi rõ nguyên nhân bug*
 
-Thank you for contributing! Please take a moment to review our [**contributing guidelines**](https://github.com/react-boilerplate/react-boilerplate/blob/master/CONTRIBUTING.md)
-to make the process easy and effective for everyone involved.
+## Link Trello
+> *Điền link tới task trên Trello*
 
-**Please open an issue** before embarking on any significant pull request, especially those that
-add a new library or change existing tests, otherwise you risk spending a lot of time working
-on something that might not end up being merged into the project.
+[Trello](https://trello.com/)
+## Hướng giải quyết
+> *Nếu là chức năng mới, nêu ngắn gọn luồng thực hiện. Nếu là bug, nêu ngắn gọn hướng giải quyết*
 
-Before opening a pull request, please ensure:
+## Phạm vi ảnh hưởng
+> *Xem xét lại việc thêm PR này có sửa đổi, ảnh hưởng tới những chức năng đã có không? Nếu có thì đã test lại chưa? Liệt kê tại mục này*
+## Screenshots
 
-- [ ] You have followed our [**contributing guidelines**](https://github.com/react-boilerplate/react-boilerplate/blob/master/CONTRIBUTING.md)
-- [ ] Double-check your branch is based on `dev` and targets `dev` 
-- [ ] Pull request has tests (we are going for 100% coverage!)
-- [ ] Code is well-commented, linted and follows project conventions
-- [ ] Documentation is updated (if necessary)
-- [ ] Internal code generators and templates are updated (if necessary)
-- [ ] Description explains the issue/use-case resolved and auto-closes related issues
-
-Be kind to code reviewers, please try to keep pull requests as small and focused as possible :)
-
-**IMPORTANT**: By submitting a patch, you agree to allow the project
-owners to license your work under the terms of the [MIT License](https://github.com/react-boilerplate/react-boilerplate/blob/master/LICENSE.md).
+## Pre Pull Request
+> *Tích chọn mục đã hoàn thành trong danh sách đây:*
+- [ ] Test toàn bộ các phần ảnh hưởng
+- [ ] Chạy ESLint
+- [ ] Rebase code mới nhất trên branch: main
+- [ ] Thêm Label phù hợp
+- [ ] Inbox Mentor để review
+{"mode":"full","isActive":false}
