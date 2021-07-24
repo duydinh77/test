@@ -15,6 +15,8 @@ import FeaturePage from 'containers/FeaturePage/Loadable';
 import NotFoundPage from 'containers/NotFoundPage/Loadable';
 import UsersPage from 'containers/UsersPage/Loadable';
 import Footer from 'components/Footer';
+import ToDoPage from 'containers/ToDoPage/Loadable';
+
 import 'antd/dist/antd.css';
 import GlobalStyle from '../../global-styles';
 
@@ -34,6 +36,7 @@ export default function App() {
         <Route exact path="/" component={HomePage} />
         <Route path="/features" component={FeaturePage} />
         <Route path="/users" component={UsersPage} />
+        <Route path="/todo" component={ToDoPage} />
         <Route path="" component={NotFoundPage} />
       </Switch>
       <Footer />
